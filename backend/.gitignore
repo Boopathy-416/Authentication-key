@@ -1,0 +1,49 @@
+# Dependency directories
+node_modules
+/.pnp
+.pnp.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+debug.log
+error.log
+server.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Database & cache files
+*.sqlite
+*.sqlite-journal
+.dump
+*.db
+/mongodb
+
+# Build directories
+dist
+build
+.cache
+
+# Editor/IDE specific files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific files
+.DS_Store
+Thumbs.db
